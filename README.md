@@ -1,1 +1,4 @@
 # pandas_homework
+## This assignment tested our ability to use pandas to perform analysis on different stock portfolios.
+
+The majority of the necessary data was provided for us in csv files. Some files provided returns data other files provided price data that we need to convert the returns data. One key data element that was not provided was the return for the risk free asset. This data element is crucial to determining the Sharpe ratio of a stock or portfolio. I used the yield on a one year US Treasury note to serve as the proxy for the return on the risk free asset. I copied the data from the [US Treasury website](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/TextView.aspx?data=yieldYear&year=2015)
